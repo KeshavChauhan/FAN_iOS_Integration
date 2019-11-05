@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit" "${PODS_ROOT}/FBAudienceNetwork/Static"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"xml2" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreMedia" -framework "FBAudienceNetwork" -framework "FBSDKCoreKit" -framework "Foundation" -framework "Security" -framework "StoreKit" -framework "UIKit" -weak_framework "Accounts" -weak_framework "AdSupport" -weak_framework "AudioToolbox" -weak_framework "CFNetwork" -weak_framework "CoreGraphics" -weak_framework "CoreLocation" -weak_framework "CoreMotion" -weak_framework "CoreTelephony" -weak_framework "Foundation" -weak_framework "LocalAuthentication" -weak_framework "QuartzCore" -weak_framework "SafariServices" -weak_framework "Security" -weak_framework "Social" -weak_framework "SystemConfiguration" -weak_framework "UIKit" -weak_framework "VideoToolbox" -weak_framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

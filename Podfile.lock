@@ -1,0 +1,20 @@
+PODS:
+  - FBAudienceNetwork (5.5.1):
+    - FBSDKCoreKit/Basics (>= 5.2.1)
+  - FBSDKCoreKit/Basics (5.8.0)
+
+DEPENDENCIES:
+  - FBAudienceNetwork
+
+SPEC REPOS:
+  trunk:
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+
+SPEC CHECKSUMS:
+  FBAudienceNetwork: 783ff4808b0b59d0eb294dd94eb251f46e0ce5c9
+  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
+
+PODFILE CHECKSUM: f7ee0b7ca49afed3797be57abfaebbe078906df2
+
+COCOAPODS: 1.8.4
